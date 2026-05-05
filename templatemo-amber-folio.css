@@ -1496,3 +1496,11 @@ footer {
 .about-image {
   overflow: hidden;
 }
+
+@font-face {
+  font-family: 'Jupiter';
+  src: url('fonts/JupiterMissionRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
