@@ -1504,3 +1504,8 @@ footer {
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Jupiter';
+  src: url('fonts/JupiterMissionRegular.woff2') format('woff2');
+}
