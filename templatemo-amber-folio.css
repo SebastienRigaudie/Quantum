@@ -10,8 +10,8 @@ https://templatemo.com/tm-615-amber-folio
 */
 @font-face {
   font-family: 'Jupiter Mission';
-  src: url('VSCODE/fonts/JupiterMissionRegular.woff2') format('woff2');
-  font-weight: normal;
+  src: url('./fonts/JupiterMissionRegular.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
