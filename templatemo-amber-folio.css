@@ -1672,3 +1672,11 @@ footer {
   }
 
 }
+
+@media (max-width: 768px) {
+
+  .section-header .section-subtitle {
+    transform: translateY(-5px) !important;
+  }
+
+}
