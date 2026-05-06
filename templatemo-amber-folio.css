@@ -1478,7 +1478,7 @@ footer {
 }
 
 .contact-section {
-  margin-top: -130px !important; /* 🔥 monte fort */
+  margin-top: -150px !important; /* 🔥 monte fort */
 }
 .social-links {
   display: flex;
@@ -1573,7 +1573,7 @@ footer {
   }
 
   .about-image {
-    margin-top: -25px !important;
+    margin-top: -225px !important;
   }
 
   .music-territories {
@@ -1679,4 +1679,37 @@ footer {
     transform: translateY(-5px) !important;
   }
 
+}
+
+/* Une image sur 2 en couleur */
+.coverflow-item:nth-child(odd) .portfolio-image {
+  filter: grayscale(0%) brightness(0.9) !important;
+}
+
+.coverflow-item:nth-child(even) .portfolio-image {
+  filter: grayscale(100%) brightness(1) !important;
+}
+
+/* Hover */
+.coverflow-item:hover .portfolio-image {
+  filter: grayscale(0%) brightness(1.15) !important;
+  transform: scale(1.08) !important;
+}
+
+@media (min-width: 769px) {
+
+  .about-image {
+    transform: scale(1.48) translateX(-50px) translateY(60px) !important;
+  }
+
+}
+
+.contact-section {
+  margin-top: -150px !important;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    margin-top: -130px !important;
+  }
 }
