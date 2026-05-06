@@ -1511,18 +1511,28 @@ footer {
 }
 
 .music-territories {
-  margin-top: 50px;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  text-align: center;
+  margin-top: 45px;
 }
-
 /* localisation sans box */
 .contact-location-small {
   margin-top: 35px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
   color: var(--text-gray);
   font-family: 'Space Grotesk', sans-serif;
   font-size: 14px;
-  line-height: 1.6;
 }
+
+.contact-location-small svg {
+  width: 18px;
+  height: 18px;
+  fill: #ffffff;
+}
+
+.about-content h2 {
+  margin-top: -30px;
+}
+
