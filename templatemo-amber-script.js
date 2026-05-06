@@ -398,3 +398,4 @@ if (window.innerWidth > 768) {
     heroBg.style.transform = `translateY(${scrolled * 0.4}px)`;
   });
 }
+

@@ -1637,3 +1637,22 @@ footer {
 
 }
 
+
+
+@media (max-width: 768px) {
+
+  .portfolio-section,
+  footer {
+    position: relative !important;
+    top: -30px !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .coverflow-wrapper {
+    margin-top: -140px !important;
+  }
+
+}
