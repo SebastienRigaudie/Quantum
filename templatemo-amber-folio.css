@@ -1638,7 +1638,7 @@ footer {
 @media (max-width: 768px) {
 
   .coverflow-wrapper {
-    margin-top: -140px !important;
+    margin-top: -150px !important;
   }
 
 }
@@ -1661,6 +1661,14 @@ footer {
     will-change: opacity, transform;
 
     transition: opacity 0.25s ease;
+  }
+
+}
+
+@media (min-width: 769px) {
+
+  .coverflow-wrapper {
+    margin-top: -130px;
   }
 
 }
