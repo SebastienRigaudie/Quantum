@@ -391,3 +391,10 @@ window.addEventListener('scroll', () => {
 
   aboutImage.style.transform = `translateY(${offset}px) scale(1.1)`;
 });
+
+if (window.innerWidth > 768) {
+  window.addEventListener('scroll', () => {
+    const scrolled = window.pageYOffset;
+    heroBg.style.transform = `translateY(${scrolled * 0.4}px)`;
+  });
+}

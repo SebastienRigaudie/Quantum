@@ -1628,3 +1628,12 @@ footer {
 
 }
 
+@media (max-width: 768px) {
+
+  .hero-bg {
+    transform: none !important;
+    will-change: auto;
+  }
+
+}
+
