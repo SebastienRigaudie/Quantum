@@ -1716,12 +1716,12 @@ footer {
 
 @media (min-width: 769px) {
   .coverflow-wrapper {
-    margin-top: 40px !important;
+    margin-top: 400px !important;
   }
 }
 
 @media (max-width: 768px) {
   .coverflow-wrapper {
-    margin-top: 20px !important;
+    margin-top: 200px !important;
   }
 }
