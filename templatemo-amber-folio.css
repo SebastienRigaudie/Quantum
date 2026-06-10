@@ -1681,10 +1681,6 @@ footer {
 
 }
 
-/* Une image sur 2 en couleur */
-.coverflow-item:nth-child(odd) .portfolio-image {
-  filter: grayscale(0%) brightness(0.9) !important;
-}
 
 .coverflow-item:nth-child(even) .portfolio-image {
   filter: grayscale(100%) brightness(1) !important;
