@@ -1713,15 +1713,3 @@ footer {
     margin-top: -130px !important;
   }
 }
-
-@media (min-width: 769px) {
-  .coverflow-wrapper {
-    margin-top: 400px !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .coverflow-wrapper {
-    margin-top: 200px !important;
-  }
-}
