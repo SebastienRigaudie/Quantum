@@ -1143,13 +1143,13 @@ footer {
 
 /* Cards en noir & blanc par défaut */
 .portfolio-image {
-  filter: grayscale(100%) brightness(0.9) !important;
+brightness(0.9) !important;
   transition: filter 0.4s ease, transform 0.4s ease !important;
 }
 
 /* Au hover : couleur + luminosité */
 .coverflow-item:hover .portfolio-image {
-  filter: grayscale(0%) brightness(1.15) !important;
+brightness(1.15) !important;
   transform: scale(1.08);
 }
 
@@ -1189,7 +1189,7 @@ footer {
 
   .coverflow-item:active .portfolio-image,
   .coverflow-item:focus-within .portfolio-image {
-    filter: grayscale(0%) brightness(1.15) !important;
+ brightness(1.15) !important;
     transform: scale(1.08);
   }
 }
@@ -1688,7 +1688,7 @@ footer {
 
 /* Hover */
 .coverflow-item:hover .portfolio-image {
-  filter: grayscale(0%) brightness(1.15) !important;
+  brightness(1.15) !important;
   transform: scale(1.08) !important;
 }
 
