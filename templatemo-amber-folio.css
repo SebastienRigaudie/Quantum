@@ -1683,7 +1683,7 @@ footer {
 
 
 .coverflow-item:nth-child(even) .portfolio-image {
-  filter: grayscale(100%) brightness(1) !important;
+   brightness(1) !important;
 }
 
 /* Hover */
